@@ -1,0 +1,127 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "dotnet-ef/7.0.11": {
+        "type": "package"
+      }
+    },
+    "net7.0/any": {
+      "dotnet-ef/7.0.11": {
+        "type": "package",
+        "tools": {
+          "tools/net6.0/any/DotnetToolSettings.xml": {},
+          "tools/net6.0/any/dotnet-ef.deps.json": {},
+          "tools/net6.0/any/dotnet-ef.dll": {},
+          "tools/net6.0/any/dotnet-ef.exe": {},
+          "tools/net6.0/any/dotnet-ef.runtimeconfig.json": {},
+          "tools/net6.0/any/ef.runtimeconfig.json": {},
+          "tools/net6.0/any/shims/win-arm64/dotnet-ef.exe": {},
+          "tools/net6.0/any/shims/win-x64/dotnet-ef.exe": {},
+          "tools/net6.0/any/shims/win-x86/dotnet-ef.exe": {},
+          "tools/net6.0/any/tools/net461/any/ef.exe": {},
+          "tools/net6.0/any/tools/net461/win-arm64/ef.exe": {},
+          "tools/net6.0/any/tools/net461/win-x86/ef.exe": {},
+          "tools/net6.0/any/tools/netcoreapp2.0/any/ef.dll": {},
+          "tools/net6.0/any/tools/netcoreapp2.0/any/ef.runtimeconfig.json": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "dotnet-ef/7.0.11": {
+      "sha512": "jlqFhxPLfbldfH+iGXtFX8Mbbz9YRyUWX8QjNcCGQGl6I91QOkRyCdY3B9IHemTmTxWplKKMcD0XLfEU/7x/7w==",
+      "type": "package",
+      "path": "dotnet-ef/7.0.11",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "dotnet-ef.7.0.11.nupkg.sha512",
+        "dotnet-ef.nuspec",
+        "tools/net6.0/any/DotnetToolSettings.xml",
+        "tools/net6.0/any/dotnet-ef.deps.json",
+        "tools/net6.0/any/dotnet-ef.dll",
+        "tools/net6.0/any/dotnet-ef.exe",
+        "tools/net6.0/any/dotnet-ef.runtimeconfig.json",
+        "tools/net6.0/any/ef.runtimeconfig.json",
+        "tools/net6.0/any/shims/win-arm64/dotnet-ef.exe",
+        "tools/net6.0/any/shims/win-x64/dotnet-ef.exe",
+        "tools/net6.0/any/shims/win-x86/dotnet-ef.exe",
+        "tools/net6.0/any/tools/net461/any/ef.exe",
+        "tools/net6.0/any/tools/net461/win-arm64/ef.exe",
+        "tools/net6.0/any/tools/net461/win-x86/ef.exe",
+        "tools/net6.0/any/tools/netcoreapp2.0/any/ef.dll",
+        "tools/net6.0/any/tools/netcoreapp2.0/any/ef.runtimeconfig.json"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "dotnet-ef >= *"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\bjime\\.dotnet\\tools\\.store\\.stage\\t3ilprov.4w1": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\bjime\\AppData\\Local\\Temp\\af6c41f9-ce45-454a-9757-2e290e81a17e\\restore.csproj",
+      "projectName": "restore",
+      "projectPath": "C:\\Users\\bjime\\AppData\\Local\\Temp\\af6c41f9-ce45-454a-9757-2e290e81a17e\\restore.csproj",
+      "packagesPath": "C:\\Users\\bjime\\.dotnet\\tools\\.store\\.stage\\t3ilprov.4w1",
+      "outputPath": "C:\\Users\\bjime\\.dotnet\\tools\\.store\\.stage\\t3ilprov.4w1\\",
+      "projectStyle": "DotnetToolReference",
+      "configFilePaths": [
+        "C:\\Users\\bjime\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "dotnet-ef": {
+            "target": "Package",
+            "version": "[*, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Users\\bjime\\AppData\\Roaming\\.dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "any": {
+        "#import": []
+      }
+    }
+  }
+}
